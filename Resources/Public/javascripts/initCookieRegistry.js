@@ -1,6 +1,8 @@
 (function () {
     var randomNumber = Date.now() / 1000 | 0;
     var baseUrlPath = window.location.href.replace(".html", "");
+    // remove hash from path
+    baseUrlPath = baseUrlPath.split('#')[0];
     // add page-type
     var jsonUrl = extendUrlParameters(baseUrlPath, "type", "12783490");
     // add no_cache
