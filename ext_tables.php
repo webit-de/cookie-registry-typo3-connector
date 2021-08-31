@@ -2,19 +2,19 @@
 if (!defined('TYPO3_MODE')) {
     die('Access denied.');
 }
-$extKey = $_EXTKEY;
+$extKey = 'cookie-registry-typo3-connector';
 
 if (TYPO3_MODE === 'BE') {
 
 };
 \TYPO3\CMS\Extbase\Utility\ExtensionUtility::registerPlugin(
-    'Queo.CookieRegistryConnector',
+    'CookieRegistryConnector',
     'CookieList',
     'Cookie List'
 );
 
 \TYPO3\CMS\Extbase\Utility\ExtensionUtility::registerPlugin(
-    'Queo.CookieRegistryConnector',
+    'CookieRegistryConnector',
     'CookieRegistryJson',
     'Cookie Registry JSON'
 );
