@@ -19,7 +19,7 @@ plugin.tx_cookieregistryconnector {
 		excludePids =
 		includeJSFooter {
 			cookieRegistryLib = EXT:cookie_registry_connector/Resources/Public/javascripts/cookie-settings-manager.min.js
-			cookieRegistryInit = EXT:cookie_registry_connector/Resources/Public/javascripts/initCookieRegistry.js
+			cookieRegistryInit = EXT:cookie_registry_connector/Resources/Public/javascripts/initCookieRegistry.min.js
 		}
 	}
 }
