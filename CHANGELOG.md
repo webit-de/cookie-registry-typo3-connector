@@ -1,3 +1,9 @@
+## 1.3.1 (13.0.2021)
+[FEATURE] add minified version of initCookieRegistry script
+
+## 1.3.0 (03.05.2021)
+[BUGFIX] modify initCookieRegistry script in order to fix error when page url contains id
+
 ## 1.2.3 (April 14, 2020)
   - removed unused flexform include
 
